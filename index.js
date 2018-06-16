@@ -10,4 +10,5 @@ You should NOT try to redefine any of the above variables.
 let newID = oldID + 1000000000;
 ageIsValid = Number.isInteger(currentAge);
 randomNumber = Math.floor(Math.random() * 20) + 1;
-randonUserID = 1000000000 + Math.floor(Math.random() * 20) + 1;
+randomInteger = Math.floor(randomNumber);
+randomUserID = 1000000000 + randomInteger;
